@@ -1,9 +1,31 @@
 <html>
   <body>
-    <h1>Bienvenido a Ingeniería de Software</h1>
-    <!-- para ver un mensaje script -->
+    <h1>Saludador</h1>
+    <form id="saludador-form">
+      <label for="nombre-input">Tu nombre:</label>
+      <input type="text" id="nombre-input" />
+
+      <br><br><label for="edad-input">Tu edad:</label>
+      <input type="text" id="edad-input" />
+
+      <br><br><label for="sexo-input">Tu sexo:</label>
+      <input type="text" id="sexo-input" />
+
+      <br><br><label for="hora-input">Hora:</label>
+      <input type="checkbox" id="hora-input" value=null>
+
+      <br><br><input type="submit" value="Saludar" />
+
+      <br><br>
+      <input type="radio" id="es" name="fav_language" value="Español">
+      <label for="es-input">Español</label><br>
+      <input type="radio" id="en" name="fav_language" value="English">
+      <label for="en-input">Ingles</label><br>
+      <input type="radio" id="ind" name="fav_language" value="Hindi">
+      <label for="hin-input">Hindi</label>
+
+      
+    </form>
     <script src="./src/index.js"></script>
   </body>
 </html>
-
-
